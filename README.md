@@ -1,10 +1,11 @@
 # TODO Next Steps
-
-* Add delete todo task implementation (*)
-* Add edit todo task implementation
-* Add validation
-* Add complete class
-* Filter todo tasks
+- [x] Build simple todo app
+- [x] Add todo to todo list after submit the form
+- [] Add delete todo task implementation (*)
+- [] Add edit todo task implementation
+- [] Add validation
+- [] Add complete class
+- [] Filter todo tasks
 
 # Getting Started with Create React App
 
