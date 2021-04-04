@@ -14,13 +14,15 @@ function TodoList({ todosList, setTodosCallback }) {
     return (
         <ul className="todo-list">
         {
-            todosList.map((todo, index) => <TodoItem 
-                                            key={index.toString()}
-                                            todo={todo}
-                                            todoIndex={index}
-                                            deleteTodo={deleteTodo}
-                                            editTodo={editTodo}
-                                        />)
+            todosList.map((todo, index) => (
+                        <TodoItem 
+                            key={index.toString()}
+                            todo={todo}
+                            todoIndex={index}
+                            deleteTodo={deleteTodo}
+                            editTodo={editTodo}
+                        />)
+                    )
         }
         </ul>
     )

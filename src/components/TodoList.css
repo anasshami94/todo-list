@@ -23,3 +23,6 @@ li.todo-item .operations {
     align-items: center;
     flex: 0.2;
 }
+li.todo-item .operations .operation {
+    cursor: pointer;
+}

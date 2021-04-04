@@ -1,3 +1,11 @@
+# TODO Next Steps
+
+* Add delete todo task implementation (*)
+* Add edit todo task implementation
+* Add validation
+* Add complete class
+* Filter todo tasks
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
